@@ -16,6 +16,6 @@ install:
   
 script:
   - cd decide
-  - pyhton3 ./manage.py migrate
+  - python3 ./manage.py migrate
   - python3 ./manage.py test
  
